@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> chekpoint 2 </title>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../checking 2/style.css">
+
+
+</head>
+
+<body>
+    <div>
+
+    </div>
+    <center>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <img src="https://gomycode.tn/images/section2GMCLogo.png" alt="logo go my code" id="go">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Course.html">courses</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        <div id="pic">
+            <h1 class="page"> COURSE </h1>
+        </div>
+
+
+        <div class="container">
+            <div class="row d-flex justify-content-center ">
+                <div class="image pic1 col-md-4 sidebar "><button class="btn1 B"><a href="#ex1" rel="modal:open">view
+                            more</a></button></div>
+                <div class="image pic2 col-md-4 sidebar "><button class="btn2 B"><a href="#ex1" rel="modal:open">view
+                            more</a></button></div>
+                <div class="image pic3 col-md-4 sidebar "><button class="btn3 B"><a href="#ex1" rel="modal:open">view
+                            more</a></button></div>
+            </div>
+            <div class="row d-flex justify-content-center ">
+                <div class="image pic4 col-md-4 sidebar "><button class="btn4 B"><a href="#ex1" rel="modal:open">view
+                            more</a></button></div>
+                <div class="image pic5 col-md-4 sidebar "><button class="btn5 B"><a href="#ex1" rel="modal:open">view
+                            more</a></button></div>
+                <div class="image pic6 col-md-4 sidebar "><button class="btn6 B"><a href="#ex1" rel="modal:open">view
+                            more</a></button></div>
+            </div>
+            <div class="row d-flex justify-content-center ">
+                <div class="image pic7 col-md-4 sidebar "><button class="btn7 B"><a href="#ex1" rel="modal:open">view
+                            more</a></button></div>
+                <div class="image pic8 col-md-4 sidebar "><button class="btn8 B"><a href="#ex1" rel="modal:open">view
+                            more</a></button></div>
+                <div class="image pic9 col-md-4 sidebar "><button class="btn9 B"><a href="#ex1" rel="modal:open">view
+                            more</a></button></div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <h3 id="feed"> <b> FEEDBACK </b> </h3>
+        <br>
+        <button onclick="bolde()">B </button>
+        <button onclick="italic()"> I </button>
+        <button onclick="underlin()"> Underline </button>
+        <select onclick="handleSize()" id="sizeStyle">
+            <option> 20px </option>
+            <option> 30px </option>
+        </select>
+        <select onclick="police()" id="Police">
+            <option> Arial </option>
+            <option> Times New Roman </option>
+        </select>
+        <br>
+        <br>
+        <form>
+
+            <textarea id="textarea" cols="50" rows="5"></textarea>
+        </form>
+
+
+    </center>
+
+
+    <div id="ex1" class="modal">
+        <p>This is GoMyCode Track.
+            Each track has its own goal.
+            By adopting this track, you chose your own goal.</p>
+
+    </div>
+
+
+    <script src="../checking 2/main.js"></script>
+</body>
+
+
+</html>
